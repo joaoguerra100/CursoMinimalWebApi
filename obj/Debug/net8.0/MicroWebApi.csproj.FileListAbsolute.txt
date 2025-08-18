@@ -153,3 +153,6 @@ D:\Projeto Api c#\MicroWebApi\obj\Debug\net8.0\MicroWebApi.csproj.AssemblyRefere
 D:\Projeto Api c#\MicroWebApi\obj\Debug\net8.0\MicroWeb.CDA29D59.Up2Date
 D:\Projeto Api c#\MicroWebApi\bin\Debug\net8.0\Npgsql.dll
 D:\Projeto Api c#\MicroWebApi\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Projeto Api c#\MicroWebApi\obj\Debug\net8.0\MicroWebApi.sourcelink.json
+D:\Projeto Api c#\MicroWebApi\bin\Debug\net8.0\AutoMapper.dll
+D:\Projeto Api c#\MicroWebApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
