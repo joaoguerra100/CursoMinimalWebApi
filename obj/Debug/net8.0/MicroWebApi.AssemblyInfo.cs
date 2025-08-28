@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d0d58119d028ae5030be5478a099578395f3ad1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdfc2df9e59eaa17abd4d3ac6e1d60c3983a2aff")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

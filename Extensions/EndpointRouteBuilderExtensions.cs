@@ -15,7 +15,14 @@ namespace MicroWebApi.Extensions
 
             rangosEndpoints.MapPost("", RangosHandlers.CreateRangoAsync);
 
-            rangosComIdEndpoints.MapPut("", RangosHandlers.UpdateRangoAsync);
+            rangosComIdEndpoints.MapPut("", RangosHandlers.UpdateRangoAsync)
+                .AddEndpointFilter(async (context, next) =>
+                {
+                    var rangoId = context.GetArgument<int>(2);
+
+                    var result = await next.Invoke(context);
+                    return result;
+                });
 
             rangosComIdEndpoints.MapDelete("", RangosHandlers.DeleteRangoAsync);
         }

@@ -13,6 +13,7 @@ namespace MicroWebApi.EndpointHandlers
         public static async Task<Results<NoContent, Ok<IEnumerable<RangoDTO>>>> GetRangosAsync
         (RangoDbContext rangoDbContext,
         IMapper mapper,
+        ILogger<RangoDTO> logger,
         [FromQuery(Name = "name")] string? rangoNome)
         {
             var rangosEntity = await rangoDbContext.Rangos.
@@ -21,9 +22,15 @@ namespace MicroWebApi.EndpointHandlers
                                         .ToListAsync();
 
             if (rangosEntity.Count <= 0 || rangosEntity == null)
+            {
+                logger.LogInformation("rango nao encontrado");
                 return TypedResults.NoContent();
+            }
             else
+            {
+                logger.LogInformation("Retornando o rango encontrado");
                 return TypedResults.Ok(mapper.Map<IEnumerable<RangoDTO>>(rangosEntity));
+            }
         }
 
         public static async Task<Results<NotFound, Ok<RangoDTO>>> GetRangoById(
