@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "FKVZsS7gggwZzB6BGvUNtd2sKZBLCAbjrkNonr/6Ox8=",
-  "Source": "MicroWebApi",
-  "BasePath": "_content/MicroWebApi",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"O0v9QFzOv8FqHVabTSBUMKvjlb6yeQnhNn9oEguTDWI=","Source":"MicroWebApi","BasePath":"_content/MicroWebApi","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
